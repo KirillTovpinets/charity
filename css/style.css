@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.top-bar{
+    padding: 15px 0px;
+    background-color: #f26522;
+    color: #fff;
+}
+.top-bar a{
+    color:#fff;
+}
+.top-bar a:hover{
+    text-decoration: none;
+    color:#333;
+}
+.top-bar .phone-number{
+    margin-right: 20px;
+}
+.top-bar .phone-number .fa-phone{
+    margin-right: 5px;
+    display: inline-block;
+}
+.social-links .icon{
+    margin-right: 20px;
+    font-size:20px;
+}
+
+.navbar{
+    padding: 20px 0px;
+}
