@@ -70,6 +70,16 @@
 .section-block img{
     width: 100%;
 }
+.section-block .title{
+    text-align: center;
+    font-size:40px;
+}
+.section-block .divider{
+    width: 20%;
+    background-color: #333;
+    height: 3px;
+    margin-bottom: 50px;
+}
 .current-child .child-description{
     padding: 50px;
 }
@@ -136,7 +146,54 @@
     background-size: cover;
     background-position: center;
 }
-
+.other-children .title{
+    color:#fff;
+}
+.other-children .divider{
+    background: #fff;
+}
 .buttons{
     margin-top: 40px;
+}
+
+.our-team .profile-container{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    height:300px;
+    width: 300px;
+    position: relative;
+}
+.profile-container .profile{
+    transition: all .1s ease;
+}
+
+.team-member{
+    margin-right: 40px;
+}
+.team-member .social-links{
+    text-align: center;
+    font-size:20px;
+}
+.team-member .social-links a{
+    color:#9a9a9a;
+    margin-right: 5px;
+    transition: all .3s ease;
+}
+.team-member .social-links a:hover{
+    color:#f26522;
+}
+.our-team .member-name{
+    text-align: center;
+    margin-top: 30px;
+    font-size:25px;
+}
+.our-team .status{
+    display: block;
+    text-align: center;
+    color:#9a9a9a;
+}
+
+.our-team .description{
+    margin-top: 30px;
 }
