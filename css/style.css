@@ -2,7 +2,15 @@
     box-sizing: border-box;
 }
 
-
+.btn-warning{
+    background-color: #f26522;
+    border:2px solid #f26522;
+    color: #fff;
+}
+.btn-outline-warning{
+    border: 2px solid #f26522;
+    color:#f26522;
+}
 .top-bar{
     padding: 15px 0px;
     background-color: #f26522;
@@ -77,13 +85,14 @@
     border-radius: 10px;
     margin-top: 40px;
     position: relative;
+    margin-bottom: 1.25rem;
 }
 .progress-item:before,
 .progress-item:after{
     content: '0';
     display: inline-block;
     position: absolute;
-    top: 10px;
+    top: 15px;
 }
 .progress-item:before{
     left: 0;
@@ -111,22 +120,23 @@
     border:2px solid #f26522;
     font-size:11px;
 }
-.progress-bar .result:after{
-    content:'';
-    display: block;
-    width: 10px;
-    height: 10px;
-    margin-left: -5px;
-    transform:rotate(45deg);
-    position: absolute;
+.progress-bar .result .fa-caret-down{
     left: 50%;
-    bottom: -5px;
-    background: #f26522;
-    z-index: -1;
+    bottom: -10px;
+    margin-left: -5px;
+    font-size:15px;
+    position: absolute;
+}
+.progress-bar .result .value{
+    z-index: 1;
 }
 
 .other-children{
-    background: url('http://placehold.it/1700x500');
+    background: url('../img/backround.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.buttons{
+    margin-top: 40px;
 }
