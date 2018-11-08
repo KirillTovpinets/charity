@@ -1,19 +1,32 @@
 *{
     box-sizing: border-box;
 }
-
+body,html{
+    margin: 0;
+    padding: 0;
+}
 .btn-warning{
-    background-color: #f26522;
-    border:2px solid #f26522;
+    background-color: #009789;
+    border:2px solid #009789;
     color: #fff;
 }
+.btn-warning:hover{
+    background: none;
+    color:#009789;   
+    border-color:#009789;
+}
 .btn-outline-warning{
-    border: 2px solid #f26522;
-    color:#f26522;
+    border: 2px solid #009789;
+    color:#009789;
+}
+.btn-outline-warning:hover{
+    background: #009789;
+    color:#fff;
+    border-color:#009789;
 }
 .top-bar{
     padding: 15px 0px;
-    background-color: #f26522;
+    background-color: #009789;
     color: #fff;
 }
 .top-bar a{
@@ -49,7 +62,7 @@
     position: relative;
 }
 .carousel-inner .carousel-item img{
-    height: 100%;
+    object-fit: cover;
 }
 .carousel-item .slide-title{
     position: absolute;
@@ -59,7 +72,7 @@
     text-align: center;    
 }
 .carousel-item .title{
-    background-color: rgba(242,101,34,.7);
+    background-color: rgba(0,151,137,.7);
     padding: 10px 70px;
     color: #fff;
     border-radius: 50px;
@@ -76,9 +89,10 @@
 }
 .section-block .divider{
     width: 20%;
-    background-color: #333;
+    background-color: #009789;
     height: 3px;
     margin-bottom: 50px;
+    border-radius: 10px;
 }
 .current-child .child-description{
     padding: 50px;
@@ -86,7 +100,7 @@
 .current-child .child-description .divider{
     width: 20%;
     height: 3px;
-    background: #f26522;
+    background: #009789;
     border-radius: 4px;
     margin: 20px 0px;
 }
@@ -113,7 +127,7 @@
 }
 .progress-item .progress-bar{
     width: 30%;
-    background: #f26522;
+    background: #009789;
     height: 10px;
     border-radius: 10px;
     box-sizing: content-box;
@@ -121,13 +135,13 @@
 }
 .progress-bar .result{
     background: #fff;
-    color:#f26522;
+    color:#009789;
     position: absolute;
     left: 100%;
     margin-left: -40px;
     padding: 2px 10px;
     top: -37px;
-    border:2px solid #f26522;
+    border:2px solid #009789;
     font-size:11px;
 }
 .progress-bar .result .fa-caret-down{
@@ -181,7 +195,7 @@
     transition: all .3s ease;
 }
 .team-member .social-links a:hover{
-    color:#f26522;
+    color:#009789;
 }
 .our-team .member-name{
     text-align: center;
@@ -196,4 +210,26 @@
 
 .our-team .description{
     margin-top: 30px;
+}
+
+footer{
+    padding: 80px 0px;
+    background-color: #333;
+    color:#9a9a9a;
+}
+.copyright{
+    background: #111;
+    color:#666;
+    padding: 10px;
+}
+.copyright p{
+    margin: 0;
+    text-align: center;
+}
+.copyright a{
+    color:#666;
+}
+.copyright a:hover{
+    color:#009789;
+    text-decoration: none;
 }
